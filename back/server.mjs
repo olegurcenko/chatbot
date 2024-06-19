@@ -1,34 +1,4 @@
-//import express from 'express';
-////import { OpenAI } from 'openai/src/index';
-//import { OpenAI } from 'openai';
 
-//import cors from 'cors';
-
-//const app = express();
-//const openai = new OpenAI({ apiKey: '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' });
-
-//app.use(cors({
-//  origin: 'http://localhost:3000', // Allow requests from this origin
-//}));
-
-//app.get('/api/chat', async (req, res) => {
-//  try {
-//    const result = await openai.createCompletion({
-//      model: "text-davinci-003",
-//      prompt: req.query.prompt,
-//      temperature: 0.5,
-//      max_tokens: 4000,
-//    });
-//    res.json(result.data);
-//  } catch (error) {
-//    console.error(error);
-//    res.status(500).json({ error: 'Internal Server Error' });
-//  }
-//});
-
-//app.listen(3001, () => {
-//  console.log('Server is running on port 3001');
-//});
 
 import express from 'express'
 import bodyParser from 'body-parser';
@@ -45,7 +15,7 @@ app.use(cors({
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
 
-const apiKey = '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';
+const apiKey = 'key';
 const headers = {
   'Content-Type': 'application/json',
   'Authorization': `Bearer ${apiKey}`
