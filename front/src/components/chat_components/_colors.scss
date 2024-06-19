@@ -1,0 +1,59 @@
+//! light theme
+$light-400: #8f8fa1;
+$light-300: #95adbe;
+$light-200: #e0f0ea;
+
+//shadows
+$l_shadow-1: rgba(45, 35, 66, .15);
+$l_shadow-2: rgba(45, 35, 66, 0.1);
+$l_shadow-3: rgba(196, 196, 212, 0.2);
+
+$l_shadow-btn-1: #D6D6E7;
+$l_shadow-btn-2: rgba(45, 35, 66, 0.4);
+$l_shadow-btn-3: rgba(45, 35, 66, 0.3);
+
+
+$l_scrollbar-shadow: rgba(128, 128, 128, .5);
+$l_scrollbar-thumb: #01010191;
+$l_scrollbar-thumb-hover: #010101b7;
+$scrollbar-inv: #ffffff00;
+
+$l_line: #574f7d;
+
+$l_dots: #303131;
+
+$l_color_msg: #3c2a4d;
+
+
+
+//! dark theme
+$dark-400: #43435c;
+$dark-300: #383858;
+$dark-200: #0e0e17;
+
+//shadows
+//$d_shadow-1: rgba(255, 255, 255, 0.15);
+//$d_shadow-2: rgba(255, 255, 255, 0.1);
+//$d_shadow-3: rgba(0, 0, 0, 0.2);
+
+//$d_shadow-btn-1: #2a2a2a;
+//$d_shadow-btn-2: rgba(255, 255, 255, 0.4);
+//$d_shadow-btn-3: rgba(255, 255, 255, 0.3);
+
+$d_shadow-1: rgba(139, 115, 115, 0.15);
+$d_shadow-2: rgba(139, 115, 115, 0.1);
+$d_shadow-3: rgba(186, 124, 124, 0.2);
+$d_shadow-btn-1: #9e9e9e;
+$d_shadow-btn-2: rgba(139, 115, 115, 0.4);
+$d_shadow-btn-3: rgba(139, 115, 115, 0.3);
+
+$d_scrollbar-shadow: rgba(0, 0, 0, 0.5);
+$d_scrollbar-thumb: #ffffff91;
+$d_scrollbar-thumb-hover: #ffffffb7;
+$scrollbar-inv: #00000000;
+
+$d_line: #8f8fa1;
+
+$d_dots: #bcbcbc;
+
+$d_color_msg: #a3a3a3;

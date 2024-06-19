@@ -1,0 +1,66 @@
+@use '../../themes' as *;
+
+.messageWrapper {
+	
+	.messageBodyBot,
+	.messageBodyUser {
+
+		max-width: 90%;
+		background-color: var(--background-btns-input);
+		margin-inline: auto;
+		color: var(--color-msg);
+		border-radius: 5px;
+		box-sizing: border-box;
+		padding: 10px;
+		font-family: "JetBrains Mono", monospace;
+		box-shadow: var(--shadow-1) 0 2px 4px, var(--shadow-2) 0 7px 13px -3px, var(--shadow-3) 0 -3px 0 inset;
+
+		.botMsgData {
+			display: flex;
+			justify-content: space-between;
+			list-style: none;
+
+			li {
+				width: fit-content;
+				.botImg {
+					height: 20px;
+					position: relative;
+					top: -3px;
+				}
+
+				width: 60px;
+				display: flex;
+				align-items: center;
+			}
+		}
+
+		.userMsgData {
+			display: flex;
+			justify-content: space-between;
+			list-style: none;
+
+			li {
+				img {
+					height: 20px;
+				}
+
+				width: 60px;
+				display: flex;
+				align-items: center;
+			}
+		}
+
+		.messageContent {
+			word-wrap: break-word;
+		}
+	}
+
+	.line {
+		width: 90%;
+		max-width: 1000px;
+		background-color: var(--background-line);
+		height: 1px;
+		margin-inline: auto;
+		margin-block: 5px;
+	}
+}

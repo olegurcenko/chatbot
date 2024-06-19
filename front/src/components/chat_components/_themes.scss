@@ -1,0 +1,39 @@
+@use './colors' as *;
+
+html[data-theme="light"] {
+	--background-main: #{$light-300};
+	--background-btns-input: #{$light-200};
+	--color-text: #{$light-400};
+	--shadow-1: #{$l_shadow-1};
+	--shadow-2: #{$l_shadow-2};
+	--shadow-3: #{$l_shadow-3};
+	--shadow-btn-1: #{$l_shadow-btn-1};
+	--shadow-btn-2: #{$l_shadow-btn-2};
+	--shadow-btn-3: #{$l_shadow-btn-3};
+	--scrollbar-shadow: #{$l_scrollbar-shadow};
+	--scrollbar-thumb: #{$l_scrollbar-thumb};
+	--scrollbar-thumb-hover: #{$l_scrollbar-thumb-hover};
+	--invise: #{$scrollbar-inv};
+	--color-dots: #{$l_dots};
+	--background-line: #{$l_line};
+	--color-msg: #{$l_color_msg};
+}
+
+html[data-theme="dark"] {
+	--background-main: #{$dark-300};
+--background-btns-input: #{$dark-200};
+--color-text: #{$dark-400};
+--shadow-1: #{$d_shadow-1};
+--shadow-2: #{$d_shadow-2};
+--shadow-3: #{$d_shadow-3};
+--shadow-btn-1: #{$d_shadow-btn-1};
+--shadow-btn-2: #{$d_shadow-btn-2};
+--shadow-btn-3: #{$d_shadow-btn-3};
+--scrollbar-shadow: #{$d_scrollbar-shadow};
+--scrollbar-thumb: #{$d_scrollbar-thumb};
+--scrollbar-thumb-hover: #{$d_scrollbar-thumb-hover};
+--invise: #{$scrollbar-inv};
+--color-dots: #{$d_dots};
+--background-line: #{$d_line};
+--color-msg: #{$d_color_msg};
+}
