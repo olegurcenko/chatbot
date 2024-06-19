@@ -15,10 +15,10 @@ app.use(cors({
 // Middleware to parse JSON bodies
 app.use(bodyParser.json());
 
-const apiKey = 'key';
+const api = 'key';
 const headers = {
   'Content-Type': 'application/json',
-  'Authorization': `Bearer ${apiKey}`
+  'Authorization': `Bearer ${api}`
 };
 // POST endpoint to send messages to ChatGPT
 // POST endpoint to send messages to ChatGPT
